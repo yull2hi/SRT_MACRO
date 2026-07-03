@@ -14,18 +14,18 @@ chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
 
 ############# 자동 예매 원하는 설정으로 변경 ##############
 
-member_number = "0000000000" # 회원번호
-password= "password" # 비밀번호
-arrival = "동대구" # 출발지
-departure = "수서" # 도착지
-standard_date = "20240506" # 기준날짜 ex) 20221101
-standard_time = "12" # 기준 시간 ex) 00 - 22 // 2의 배수로 입력
+member_number = "2484129543" # 회원번호
+password= "dbflWKd2ek!" # 비밀번호
+arrival = "수서" # 출발지
+departure = "광주송정" # 도착지
+standard_date = "20260703" # 기준날짜 ex) 20221101
+standard_time = "19" # 기준 시간 ex) 00 - 22 // 2의 배수로 입력
 
 """
 현재 페이지에 나타난 기차 몇번째 줄부터 몇번째 줄의 기차까지 조회할지 선택 
 """
 from_train_number = 1 # 몇번째 기차부터 조회할지  min = 1, max = 10
-to_train_number = 10 # 몇번째 기차까지 조회할지 min = from_train_number, max = 10
+to_train_number = 3 # 몇번째 기차까지 조회할지 min = from_train_number, max = 10
 
 #################################################################
 
